@@ -1,0 +1,7 @@
+CREATE TABLE `sbtest1` (
+  `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
+  `k` int(10) unsigned NOT NULL DEFAULT '0',
+  `c` char(120) NOT NULL DEFAULT '',
+  `pad` char(60) NOT NULL DEFAULT '',
+  PRIMARY KEY (`id`)
+) ENGINE = InnoDB AUTO_INCREMENT = 10000001 DEFAULT CHARSET = utf8mb4 MAX_ROWS = 1000000
